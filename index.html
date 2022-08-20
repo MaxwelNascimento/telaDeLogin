@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" media="screen" />
+    <title>Login</title>
+</head>
+<body>
+    <div class="cont-principal">
+        
+        <div class="boxDetail absDetailBox">
+            <span></span>
+        </div>
+
+        <div class="cont-principal-box relative">
+            
+            <div style="margin-bottom: 10px;">
+                <img src="img/emoji-smile.svg" alt=".." />
+                <img src="img/emoji-serious.svg" alt=".." />
+            </div>
+            
+            <h1 id="titulo" >Login</h1>
+            <!-- First Name / Primeiro Nome -->
+            <div class="cont-principal-campo">
+                <label for="username" class="label-titulo">Username</label>
+                <div class="cont-principal-campo-input">
+                    <input type="text" name="username" id="username" value="" placeholder="Username" autocomplete="off" required />
+                    <img id="img-username" src="img/emoji-simple.svg" alt0=".." />
+                </div>
+            </div>
+
+            <div class="veriSenha">
+                <span id="veriNomeId"></span>
+            </div> 
+
+            <!-- First Name / Sobrenome -->
+            
+            <div class="cont-principal-campo">
+                <label for="password" class="label-titulo">Password</label>
+                <div class="cont-principal-campo-input">
+                    <!-- Password tem que ter 6 letra 2 acentos 2 números -->
+                    <div class="cont-principal-campo-input relative">
+                        <input type="password" name="password" id="password" value="" minlength="4" maxlength="8" placeholder="Type your password" autocomplete="off" required />
+                        <img width="20px" id="iconEyeOpen" class="absIcon" src="img/eyeopen.svg" alt="icon" >
+        
+                        <img width="20px" id="iconEyeClosed" class="absIcon" src="img/eyeclosed.svg" alt="icon" >
+                    </div>
+                    
+                    <img id="img-password" src="img/emoji-simple.svg" alt=".." />
+                </div>
+                
+            </div>
+             <!-- Verificação Senha -->
+            <div class="veriSenha"> 
+                <span id="veriSenhaId"></span>
+            </div>      
+            
+            <div id="forgt-password-div">
+                <a href="#" id="forgt-password">Forgot your password?</a>
+            </div>
+            <!-- Email -->
+            <div class="validar" style="display: flex; flex-direction: column;">
+            <button class="teste" id="validar"> <a id="teste" href="#" style="color: #fff; text-decoration: none; "> Send </a> </button>
+            <p id="marca">&copy;2022 MaxwelNascimento </p>
+        </div>
+        </div>
+
+        <div class="boxDetailAll boxDetailAll-WH ">
+
+            <div class="boxDetailSecond absDetailSecond">
+                <span></span>
+            </div>
+
+            <div class="boxDetailTree absDetailTree">
+                <span></span>
+            </div>
+
+            <div class="boxDetailFour absDetailFour">
+                <span></span>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>

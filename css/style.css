@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+html {
+    overflow: hidden;
+}
+
+body {
+    background-color: #19181A;
+    
+}
+
+.relative {
+    position: relative;
+}
+
+/* Icons */
+
+.absIcon {
+    position: absolute;
+    left: 88%;
+}
+
+.cont-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cont-principal-box {
+    background-color: #19181A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 8px solid #D19B9B;
+    width: 430px;
+    height: 430px;
+    /* border-radius: 25px; */
+}
+
+.cont-principal-box > button {
+    margin-top: 20px;
+}
+
+.cont-principal-campo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.cont-principal-campo-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cont-principal-campo-input > input[type=text] ,
+     .cont-principal-campo-input > input[type=password]  {
+    padding: 8px;
+    width: 280px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.17);
+    color: #ffffff;
+}
+
+
+.cont-principal-campo-input > input[type=text] ,
+     .cont-principal-campo-input > input[type=password]::placeholder   {
+    color: #000;
+}
+
+
+.cont-principal-campo-input > input:focus {
+    background-color: #a5afce;
+    text-decoration: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.label-titulo{
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* Elementos flutuantes */
+
+.boxDetail {
+    background-color: #D19B9B;
+    width: 420px;
+    height: 420px;
+}
+
+.absDetailBox {
+    position: absolute;
+    border-radius: 40px;
+    background: #D19B9B;
+    transform: rotate(-45deg);
+}
+
+.boxDetailSecond {
+    background-color: #D19B9B;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    rotate: 45deg;
+    display: block;
+}
+
+.absDetailSecond {
+    position: absolute;
+    right: 90px;
+    top: -55px;
+}
+
+.boxDetailTree {
+    background-color: #D19B9B;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    rotate: 45deg;
+    display: block;
+}
+
+.absDetailTree {
+    position: absolute;
+    right: -20px;
+    top: 40px;
+}
+
+.boxDetailFour {
+    background-color: #D19B9B;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    rotate: 45deg;
+    display: block;
+}
+
+.absDetailFour {
+    position: absolute;
+    right: 80px;
+    top: 120px;
+}
+
+/* Elementos flutuantes */
+
+.veriSenha {
+    width: 312px;
+    margin-top: 2px;
+    display: flex;
+    font-size: 10px;
+
+}
+/* Seção de IDS # */
+
+
+#titulo {
+    font-size: 40px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+#forgt-password-div {
+    max-width: 400px;
+    display: flex;
+    margin-right: 50%;
+}
+
+#forgt-password {
+    color: #D19B9B;
+    font-weight: 300;
+    font-style: italic;
+    margin: 16px 0px 15px 0px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-decoration: none;
+}
+
+#forgt-password:hover {
+    opacity: 0.5;
+}
+
+.validar {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#validar {
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    height: 34px;
+    width: 120px;
+    color: #ffffff;
+    background-color: #3B476C;
+    font-weight: 900;
+    font-size: 15px;display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#validar:hover{
+    background-color: #2a334e;
+}
+
+#iconEyeClosed {
+    display: none;
+}
+
+#username {
+    color: #fff;
+}
+
+#username::placeholder {
+    color: #000;
+}
+
+#marca {
+    color: #fff; 
+    margin-top: 40%; 
+    background-color: #19181a; 
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#teste {
+    padding: 5px 32px 5px 32px ;
+}
+
+/* Alteração no box shadow do Jquery Toast ( Pop Up) */
+#toast-container>div{
+    -moz-box-shadow:0 0 0 0 !important;
+    -webkit-box-shadow:0 0 0 0 !important;
+    box-shadow:0 0 0 0 !important;
+}
+
+#toast-container>div:hover{
+    -moz-box-shadow:0 0 0 0 !important;
+    -webkit-box-shadow:0 0 0 0 !important;
+    box-shadow:0 0 0 0 !important;
+    opacity:1 !important;
+} /* Alteração no box shadow do Jquery Toast ( Pop Up) */
+
+/* Responsividade para tablet */
+
+@media (max-width: 810px){
+
+    .boxDetail {
+        background-color: #D19B9B;
+        width: 420px;
+        height: 420px;
+    }
+
+    .absDetailBox {
+        position: fixed;
+    }
+
+    .boxDetailAll {
+        position: fixed;
+        right: -25px;
+        top: 10px;
+    }
+}
+
+/* Responsividade para mobile */
+
+@media (max-width: 540px){
+    .cont-principal-box {
+        background: none;
+        border: none;
+    }
+
+    .boxDetail {
+        background-color: #19181A;
+    }
+    
+    .absDetailBox {
+        position: fixed;
+        width: 400px    ;
+        height: 400px;
+        border-radius: 0px !important;
+        top: 86%;
+        right: 15%;
+        border: 10px solid #D19B9B;
+        transform: rotate(-45deg);
+    }
+
+    .boxDetailAll {
+        position: fixed;
+        right: -25px;
+        top: 10px;
+    }
+
+}
+
+/* Responsividade para mobile */
+
+@media (max-width: 311px){
+    .cont-principal-box {
+        background: none;
+        border: none;
+    }
+
+    .cont-principal-campo {
+        width: 230px;
+    }
+    .cont-principal-campo-input {
+        width: 200px;
+    }
+
+    #forgt-password-div {
+        max-width: 400px;
+        display: flex;
+        margin-right: 30%;
+    }
+
+    .boxDetail {
+        background-color: #19181A;
+    }
+    
+    .absDetailBox {
+        position: fixed;
+        width: 400px    ;
+        height: 400px;
+        border-radius: 0px !important;
+        top: 86%;
+        right: 15%;
+        border: 10px solid #D19B9B;
+        transform: rotate(-45deg);
+    }
+
+    .boxDetailAll {
+        position: fixed;
+        right: -25px;
+        top: 10px;
+    }
+
+}
