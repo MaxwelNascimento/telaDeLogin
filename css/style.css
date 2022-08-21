@@ -273,7 +273,7 @@ body {
 
     .boxDetailAll {
         position: fixed;
-        z-index: -1;
+        /* z-index: -1; */
         right: -25px;
         top: 10px;
     }
@@ -306,7 +306,7 @@ body {
 
     .boxDetailAll {
         position: fixed;
-        z-index: -1;
+        /* z-index: -1; */
         right: -25px;
         top: 10px;
     }
@@ -352,7 +352,7 @@ body {
 
     .boxDetailAll {
         position: fixed;
-        z-index: -1;
+        /* z-index: -1; */
         right: -25px;
         top: 10px;
     }
