@@ -232,7 +232,7 @@ body {
 }
 
 #marca {
-    color: #D19B9B; 
+    color: #fff; 
     margin-top: 40%; 
     background-color: #19181a; 
     padding: 2px;
@@ -284,7 +284,8 @@ body {
 @media (max-width: 540px){
 
     .cont-principal-box {
-        background: none;
+        background: transparent;
+        backdrop-filter: blur(10px);
         border: none;
     }
 
@@ -316,7 +317,8 @@ body {
 
 @media (max-width: 311px){
     .cont-principal-box {
-        background: none;
+        background: transparent;
+        backdrop-filter: blur(10px);
         border: none;
     }
 
