@@ -301,10 +301,11 @@ body {
         transform: rotate(-45deg);
     }
 
-    .boxDetailAll {
+    .boxDetailAll { 
         position: fixed;
         right: -25px;
         top: 10px;
+        /* Top */
     }
 
 }
