@@ -98,6 +98,7 @@ body {
     background-color: #D19B9B;
     width: 420px;
     height: 420px;
+    z-index: -10;  
 }
 
 .absDetailBox {
@@ -105,6 +106,7 @@ body {
     border-radius: 40px;
     background: #D19B9B;
     transform: rotate(-45deg);
+    z-index: -10;
 }
 
 .boxDetailSecond {
@@ -114,12 +116,14 @@ body {
     border-radius: 10px;
     rotate: 45deg;
     display: block;
+    z-index: -10;
 }
 
 .absDetailSecond {
     position: absolute;
     right: 90px;
     top: -55px;
+    z-index: -10;
 }
 
 .boxDetailTree {
@@ -129,12 +133,14 @@ body {
     border-radius: 10px;
     rotate: 45deg;
     display: block;
+    z-index: -10;
 }
 
 .absDetailTree {
     position: absolute;
     right: -20px;
     top: 40px;
+    z-index: -10;
 }
 
 .boxDetailFour {
@@ -144,12 +150,14 @@ body {
     border-radius: 10px;
     rotate: 45deg;
     display: block;
+    z-index: -10;
 }
 
 .absDetailFour {
     position: absolute;
     right: 80px;
     top: 120px;
+    z-index: -10;
 }
 
 /* Elementos flutuantes */
@@ -269,12 +277,14 @@ body {
 
     .absDetailBox {
         position: fixed;
+        z-index: -10;   
     }
 
     .boxDetailAll {
         position: fixed;
         right: -25px;
         top: 10px;
+        z-index: -10;
     }
 }
 
@@ -299,12 +309,14 @@ body {
         right: 15%;
         border: 10px solid #D19B9B;
         transform: rotate(-45deg);
+        z-index: -10;
     }
 
     .boxDetailAll { 
         position: fixed;
         right: -25px;
         top: 10px;
+        z-index: -10;
         /* Top */
     }
 
@@ -344,12 +356,14 @@ body {
         right: 15%;
         border: 10px solid #D19B9B;
         transform: rotate(-45deg);
+        z-index: -10;
     }
 
     .boxDetailAll {
         position: fixed;
         right: -25px;
         top: 10px;
+        z-index: -10;
     }
 
 }
